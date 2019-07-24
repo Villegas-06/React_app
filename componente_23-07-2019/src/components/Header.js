@@ -3,12 +3,14 @@ import Logo from '../images/aca_geek_logo.png';
 
 //importar los css
 import './styles/ProfileStyle.css'
+import './styles/index.css'
 
 //clases, empiezan letras en mayúscula (camelCase)
 class Header extends React.Component{
 
     render(){
         return(
+
             <nav id="header" className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <div class="container">
                 <a className="navbar-brand" href="#">
@@ -37,8 +39,12 @@ class Header extends React.Component{
                     </li>
                     </ul>
                    </div>
-              </div>      
+              </div>  
+                  
         </nav>
+         
+        
+
         );
     }
 }

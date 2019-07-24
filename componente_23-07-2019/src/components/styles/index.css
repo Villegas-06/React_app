@@ -12,6 +12,7 @@
     color: white;
 }
 
+
 #header img{
     width: 80px;
 }
@@ -22,6 +23,11 @@
     background: red;
     filter: grayscale(70%)
 }
+
+.SobrePosicion{
+    z-index:3
+}
+​
 
 #main .carousel {
     position: relative;
