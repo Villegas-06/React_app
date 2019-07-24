@@ -3,7 +3,6 @@ import M1 from '../images/medellin1.png';
 import M2 from '../images/medellin2.png';
 import M3 from '../images/medellin3.png';
 
-import './styles/index.css'
 
 class Slider extends React.Component{
     render(){
@@ -31,7 +30,7 @@ class Slider extends React.Component{
                                 por medio de un proyecto todas las habilidades y conocimientos
                                 técnicos adquiridos durante el curso.
                             </p>
-                            <a href="#" className="bg btn btn-outline">Quiero ser orador</a>
+                            <a href="#" className="btn btn-outline-light">Quiero ser orador</a>
                             <button type="button" className="btn btn-geek" data-toggle="modal" data-target="#modalCompra">Comprar Tickets</button>
                         </div>
                     </div>

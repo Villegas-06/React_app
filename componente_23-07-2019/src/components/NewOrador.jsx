@@ -4,7 +4,6 @@ import React from 'react';
 import imagenFondo from '../images/tesoro.jpg';
 
 //importar css
-import './styles/index.css'
 
 const NewOrador = () => (
 

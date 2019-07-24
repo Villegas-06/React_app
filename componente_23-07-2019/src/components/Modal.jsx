@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './styles/index.css'
+
 
 class Modal extends React.Component{
     render(){
@@ -13,7 +13,6 @@ class Modal extends React.Component{
                     <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
-                </div>
                 </div>
                 <div className="modal-body">
                     <form action="">
@@ -37,6 +36,7 @@ class Modal extends React.Component{
                     <button type="button" className="btn btn-geek">Comprar</button>
                 </div>
                 </div>
+            </div>
             </div>
         );
     }

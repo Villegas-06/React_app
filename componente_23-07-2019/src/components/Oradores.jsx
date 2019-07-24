@@ -5,7 +5,6 @@ import imagen2 from '../images/speaker2.jpg';
 import imagen3 from '../images/speaker3.jpg';
 
 //importar los css
-import './styles/index.css'
 
 //clases, empiezan letras en mayúscula (camelCase)
 class Oradores extends React.Component{

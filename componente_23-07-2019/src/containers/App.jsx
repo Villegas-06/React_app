@@ -15,11 +15,9 @@ const App = () => {
        
         <Main>
              <Header>
-               <Modal/>
              </Header>
 
              <Slider>
-               <Modal/>
              </Slider>
 
              <Oradores/>
@@ -29,6 +27,8 @@ const App = () => {
              <ConvierteteOrador/>
              
              <Footer/>
+
+             <Modal/>
         </Main>
         
     );

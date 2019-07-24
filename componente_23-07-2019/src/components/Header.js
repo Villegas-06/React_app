@@ -3,7 +3,6 @@ import Logo from '../images/aca_geek_logo.png';
 
 //importar los css
 import './styles/ProfileStyle.css'
-import './styles/index.css'
 
 //clases, empiezan letras en mayúscula (camelCase)
 class Header extends React.Component{

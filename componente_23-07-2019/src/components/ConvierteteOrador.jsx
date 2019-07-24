@@ -1,6 +1,5 @@
 import React from 'react';
 
-import './styles/index.css'
 
 class ConvierteteOrador extends React.Component{
     render(){
